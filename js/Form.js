@@ -5,11 +5,11 @@ class Form {
 
   display(){
     var title = createElement('h2')
-    title.html("Car Racing Game");
+    title.html("Juego de carrera de autos);
     title.position(130, 0);
     
-    var input = createInput("Name");
-    var button = createButton('Play');
+    var input = createInput("Nombre");
+    var button = createButton('Jugar');
     
     input.position(130, 160);
     button.position(250, 200);
@@ -24,7 +24,7 @@ class Form {
       // player.update(name)
       player.updateCount(playerCount);
       var greeting = createElement('h3');
-      greeting.html("Hello " + name )
+      greeting.html("Hola " + name )
       greeting.position(130, 160)
     });
 
