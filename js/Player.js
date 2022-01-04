@@ -26,7 +26,7 @@ class Player {
     });
   }
 
-//fuction to get all player info
+// Función para obtener toda la información del jugador
   static getPlayerInfo(){
     var playerInfoRef = database.ref('players');
     playerInfoRef.on("value",(data)=>{
